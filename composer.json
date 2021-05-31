@@ -1,0 +1,11 @@
+{
+    "name": "skrz/coding-standard",
+    "description": "Skrz Coding Standards",
+    "license": "MIT",
+    "require": {
+        "phpstan/phpstan": "^0.12",
+        "phpstan/phpstan-strict-rules": "^0.12",
+        "squizlabs/php_codesniffer": "^3.6",
+        "slevomat/coding-standard": "^7.0"
+    }
+}
