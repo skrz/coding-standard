@@ -88,5 +88,13 @@
 
     <rule ref="SlevomatCodingStandard.Whitespaces.DuplicateSpaces"/>
 
+    <rule ref="SlevomatCodingStandard.Files.TypeNameMatchesFileName">
+        <properties>
+            <property name="rootNamespaces" type="array">
+                <element key="src/Skrz" value="Skrz"/>
+            </property>
+        </properties>
+    </rule>
+
 
 </ruleset>
