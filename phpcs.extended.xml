@@ -10,6 +10,9 @@
         </properties>
     </rule>
 
+    <!-- catches Error as well which could be a problem in AssertError -->
+    <rule ref="SlevomatCodingStandard.Exceptions.ReferenceThrowableOnly"/>"/>
+
     <!-- this enforce === -->
     <rule ref="SlevomatCodingStandard.Operators.DisallowEqualOperators"/>
 

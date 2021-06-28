@@ -75,4 +75,6 @@
     <rule ref="SlevomatCodingStandard.PHP.ShortList"/>
     <rule ref="SlevomatCodingStandard.PHP.TypeCast"/>
 
+    <rule ref="SlevomatCodingStandard.Exceptions.DeadCatch"/>
+
 </ruleset>
