@@ -98,5 +98,28 @@
 
     <rule ref="SlevomatCodingStandard.Numbers.DisallowNumericLiteralSeparator"/>
 
+    <rule ref="SlevomatCodingStandard.ControlStructures.BlockControlStructureSpacing">
+        <properties>
+            <property name="controlStructures" type="array">
+                <element value="if"/>
+                <element value="switch"/>
+                <element value="foreach"/>
+                <element value="for"/>
+                <element value="try"/>
+                <element value="while"/>
+            </property>
+            <property name="linesCountAroundControlStructure" value="1"/>
+            <property name="linesCountBeforeFirstControlStructure" value="0"/>
+            <property name="linesCountAfterLastControlStructure" value="0"/>
+        </properties>
+    </rule>
+    <rule ref="SlevomatCodingStandard.ControlStructures.JumpStatementsSpacing">
+        <properties>
+            <property name="tokensToCheck" type="array">
+                <element value="T_RETURN"/>
+            </property>
+        </properties>
+    </rule>
+
 
 </ruleset>
