@@ -86,5 +86,7 @@
 
     <rule ref="SlevomatCodingStandard.Variables.DuplicateAssignmentToVariable"/>
 
+    <rule ref="SlevomatCodingStandard.Whitespaces.DuplicateSpaces"/>
+
 
 </ruleset>
