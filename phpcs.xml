@@ -67,4 +67,13 @@
     <rule ref="SlevomatCodingStandard.Functions.RequireArrowFunction"/>
     <rule ref="SlevomatCodingStandard.Functions.RequireMultiLineCall"/>
 
+    <rule ref="SlevomatCodingStandard.PHP.DisallowDirectMagicInvokeCall"/>
+    <rule ref="SlevomatCodingStandard.PHP.RequireExplicitAssertion"/>
+    <rule ref="SlevomatCodingStandard.PHP.UselessParentheses"/>
+    <rule ref="SlevomatCodingStandard.PHP.OptimizedFunctionsWithoutUnpacking"/>
+    <rule ref="SlevomatCodingStandard.PHP.UselessSemicolon"/>
+    <rule ref="SlevomatCodingStandard.PHP.ReferenceSpacing"/>
+    <rule ref="SlevomatCodingStandard.PHP.ShortList"/>
+    <rule ref="SlevomatCodingStandard.PHP.TypeCast"/>
+
 </ruleset>
