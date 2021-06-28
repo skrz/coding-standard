@@ -96,5 +96,7 @@
         </properties>
     </rule>
 
+    <rule ref="SlevomatCodingStandard.Numbers.DisallowNumericLiteralSeparator"/>
+
 
 </ruleset>
