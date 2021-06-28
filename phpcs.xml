@@ -16,4 +16,14 @@
 
     <rule ref="SlevomatCodingStandard.Namespaces.AlphabeticallySortedUses"/>
 
+    <rule ref="SlevomatCodingStandard.Commenting.DisallowCommentAfterCode"/>
+    <rule ref="SlevomatCodingStandard.Commenting.ForbiddenAnnotations"/>
+    <rule ref="SlevomatCodingStandard.Commenting.ForbiddenComments"/>
+    <rule ref="SlevomatCodingStandard.Commenting.DocCommentSpacing"/>
+    <rule ref="SlevomatCodingStandard.Commenting.EmptyComment"/>
+    <rule ref="SlevomatCodingStandard.Commenting.RequireOneLinePropertyDocComment"/>
+    <rule ref="SlevomatCodingStandard.Commenting.RequireOneLineDocComment"/>
+    <rule ref="SlevomatCodingStandard.Commenting.UselessFunctionDocComment"/>
+    <rule ref="SlevomatCodingStandard.Commenting.UselessInheritDocComment"/>
+
 </ruleset>
