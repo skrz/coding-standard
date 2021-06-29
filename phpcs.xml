@@ -14,6 +14,17 @@
         </properties>
     </rule>
 
+    <!--- we want to use tabs instead of spaces -->
+    <arg name="tab-width" value="4"/>
+    <rule ref="Generic.WhiteSpace.DisallowSpaceIndent"/>
+    <rule ref="Generic.WhiteSpace.ScopeIndent">
+        <properties>
+            <property name="ignoreIndentationTokens" type="array" value="T_COMMENT,T_DOC_COMMENT_OPEN_TAG"/>
+            <property name="indent" value="4"/>
+            <property name="tabIndent" value="true"/>
+        </properties>
+    </rule>
+
     <rule ref="SlevomatCodingStandard.Namespaces.AlphabeticallySortedUses"/>
 
     <rule ref="SlevomatCodingStandard.Commenting.DisallowCommentAfterCode"/>
