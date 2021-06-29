@@ -10,8 +10,8 @@
         </properties>
     </rule>
 
-    <!-- catches Error as well which could be a problem in AssertError -->
-    <rule ref="SlevomatCodingStandard.Exceptions.ReferenceThrowableOnly"/>"/>
+    <!-- catches Error as well which could be a problem in AssertError ->
+    <rule ref="SlevomatCodingStandard.Exceptions.ReferenceThrowableOnly"/-->
 
     <!-- this enforce === -->
     <rule ref="SlevomatCodingStandard.Operators.DisallowEqualOperators"/>
@@ -37,8 +37,5 @@
     <rule ref="SlevomatCodingStandard.Commenting.InlineDocCommentDeclaration"/>
     <rule ref="SlevomatCodingStandard.Operators.RequireCombinedAssignmentOperator"/>
     <rule ref="SlevomatCodingStandard.Commenting.DeprecatedAnnotationDeclaration"/>
-
-    <!-- we are not sure -->
-    <rule ref="SlevomatCodingStandard.ControlStructures.RequireMultiLineTernaryOperator"/>
 
 </ruleset>
