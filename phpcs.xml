@@ -25,6 +25,13 @@
         </properties>
     </rule>
 
+    <rule ref="Squiz.WhiteSpace.MemberVarSpacing">
+        <properties>
+            <property name="spacing" value="1"/>
+            <property name="spacingBeforeFirst" value="1"/>
+        </properties>
+    </rule>
+
     <rule ref="SlevomatCodingStandard.Namespaces.AlphabeticallySortedUses"/>
 
     <rule ref="SlevomatCodingStandard.Commenting.DisallowCommentAfterCode"/>
