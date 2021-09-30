@@ -1,6 +1,7 @@
 {
     "name": "skrz/coding-standard",
     "description": "Skrz Coding Standards",
+    "type": "phpcodesniffer-standard",
     "license": "MIT",
     "require": {
         "phpstan/phpstan": "^0.12",
@@ -10,9 +11,13 @@
     },
     "autoload": {
         "psr-4": {
+            "SkrzCodingStandard\\": "SkrzCodingStandard",
             "Skrz\\": [
                 "src/"
             ]
         }
+    },
+    "require-dev": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1"
     }
 }
