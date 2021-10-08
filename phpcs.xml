@@ -114,7 +114,7 @@
     <rule ref="SlevomatCodingStandard.Files.TypeNameMatchesFileName">
         <properties>
             <property name="rootNamespaces" type="array">
-                <element key="src/Skrz" value="Skrz"/>
+                <element key="src" value="App"/>
             </property>
         </properties>
     </rule>
