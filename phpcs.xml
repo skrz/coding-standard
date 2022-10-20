@@ -70,7 +70,7 @@
     <rule ref="SlevomatCodingStandard.TypeHints.ParameterTypeHintSpacing"/>
     <rule ref="SlevomatCodingStandard.TypeHints.PropertyTypeHintSpacing"/>
 
-    <rule ref="SlevomatCodingStandard.Classes.DisallowConstructorPropertyPromotion"/>
+    <rule ref="SlevomatCodingStandard.Classes.RequireConstructorPropertyPromotion"/>
     <rule ref="SlevomatCodingStandard.Classes.UselessLateStaticBinding"/>
     <rule ref="SlevomatCodingStandard.Classes.ClassConstantVisibility"/>
     <rule ref="SlevomatCodingStandard.Classes.ClassMemberSpacing"/>
