@@ -123,15 +123,16 @@
                 <element value="try"/>
                 <element value="while"/>
             </property>
-            <property name="linesCountAroundControlStructure" value="1"/>
-            <property name="linesCountBeforeFirstControlStructure" value="0"/>
-            <property name="linesCountAfterLastControlStructure" value="0"/>
+            <property name="linesCountBefore" value="1"/>
+            <property name="linesCountAfter" value="1"/>
+            <property name="linesCountBeforeFirst" value="0"/>
+            <property name="linesCountAfterLast" value="0"/>
         </properties>
     </rule>
     <rule ref="SlevomatCodingStandard.ControlStructures.JumpStatementsSpacing">
         <properties>
-            <property name="tokensToCheck" type="array">
-                <element value="T_RETURN"/>
+            <property name="jumpStatements" type="array">
+                <element value="return"/>
             </property>
         </properties>
     </rule>
