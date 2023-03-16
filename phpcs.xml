@@ -122,6 +122,7 @@
                 <element value="for"/>
                 <element value="try"/>
                 <element value="while"/>
+
             </property>
             <property name="linesCountBefore" value="1"/>
             <property name="linesCountAfter" value="1"/>
