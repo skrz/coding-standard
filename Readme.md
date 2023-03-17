@@ -3,8 +3,14 @@
 ##### phpstan
 make include in your phpstan.neon
 ````
+parameters:
+	level: max
+
 includes:
-     - vendor/skrz/coding-standard/phpstan.neon
+	- vendor/phpstan/phpstan-strict-rules/rules.neon
+	- vendor/skrz/coding-standard/phpstan.neon
+	- vendor/skrz/coding-standard/phpstan-extended.neon
+
 ````
 
 ##### phpcs
