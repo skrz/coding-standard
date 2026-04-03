@@ -8,14 +8,7 @@ parameters:
 	inferPrivatePropertyTypeFromConstructor: true
 	reportUnmatchedIgnoredErrors: false
 
-	ignoreErrors:
-		- "#Method Skrz\\\\ORM\\\\DatabaseConnectionInterface::query\\(\\) invoked with [0-9]+ parameters, [0-9]+ required.#"
-		- "#Method Skrz\\\\ORM\\\\QueryInterface::where\\(\\) invoked with [0-9]+ parameters, [0-9]+ required.#"
-
 rules:
 	- PHPStan\Rules\SwitchConditions\MatchingTypeInSwitchCaseConditionRule
 	- Skrz\PHPStan\DisallowedEmptyRule
 
-services:
-	- class: PHPStan\Rules\BooleansInConditions\BooleanRuleHelper
-	- class: PHPStan\Rules\Operators\OperatorRuleHelper
